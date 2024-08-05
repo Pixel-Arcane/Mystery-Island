@@ -1,0 +1,12 @@
+{
+  "WorkspaceID": "dv.ws.315eb6e1-abc0-41c1-bd9b-9a50ad1838e5",
+  "RepoID": "dv.repo.6a0a6389-0d0e-4026-90e3-b60f9a8f729f",
+  "Path": "/Users/ciprianpirvu/Mystery Island",
+  "AccountID": "Google_100767077858812392527",
+  "BranchID": "dv.branch.1",
+  "BranchName": "main",
+  "CommitID": "dv.commit.1",
+  "Paused": false,
+  "ShouldDownload": true,
+  "RepoName": "Mystery Island"
+}
