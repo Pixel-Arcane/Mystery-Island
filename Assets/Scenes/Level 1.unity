@@ -3364,8 +3364,8 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 116
-  m_CollisionDetection: 0
+  m_Constraints: 112
+  m_CollisionDetection: 1
 --- !u!136 &739312590
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -3448,8 +3448,8 @@ Transform:
   m_GameObject: {fileID: 739312588}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.96633035, z: -0, w: 0.25730482}
-  m_LocalPosition: {x: 16.3, y: 10.03, z: 35.2}
-  m_LocalScale: {x: 9.370601, y: 9.370601, z: 9.370601}
+  m_LocalPosition: {x: 24.867, y: 2.68, z: 48.745}
+  m_LocalScale: {x: 1.7027402, y: 1.7027402, z: 1.7027402}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 114943426}
@@ -3475,6 +3475,7 @@ MonoBehaviour:
   olw_speed: 120
   rn_speed: 160
   ro_speed: 90
+  jumpForce: 5
   walking: 0
   playerTrans: {fileID: 739312593}
 --- !u!4 &747791153 stripped
@@ -5464,7 +5465,7 @@ GameObject:
   - component: {fileID: 1229529562}
   m_Layer: 0
   m_Name: Map
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5670,7 +5671,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6982,7 +6983,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d00051b2ae9764506a6af283d8614f94, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.88681626
+      value: -0.9831113
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d00051b2ae9764506a6af283d8614f94, type: 3}
       propertyPath: m_LocalPosition.z
